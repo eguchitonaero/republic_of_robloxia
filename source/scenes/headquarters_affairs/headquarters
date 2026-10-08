@@ -1,1 +1,35 @@
-headquarters
+title: Reducing Stigma
+new-page: true
+on-arrival: month_actions += 1
+frequency: 100
+is-card: true
+card-image:
+tags: 
+
+= Reducing Stigma
+
+We can lessen the chance of a guest ban by taking necessary measures.
+
+- @roblox: Build relationship with roblox.
+- @guest: Persuade guests to stay on the good side.
+- @ban: Track down evil guests.
+- @root: We either can't or will not do actions rn
+- @easy_discard
+
+@roblox
+subtitle: -1 resource
+choose-if: resource > 0
+unavailable-subtitle: Not enough resources.
+on-arrival: resources -= 1
+
+@guest
+subtitle: -1 resource
+choose-if: resource > 0
+unavailable-subtitle: Not enough resources.
+on-arrival: resources -= 1
+
+@ban
+subtitle: -1 resource
+choose-if: resource > 0
+unavailable-subtitle: Not enough resources.
+on-arrival: resources -= 1
