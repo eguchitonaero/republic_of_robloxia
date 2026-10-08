@@ -50,7 +50,6 @@ is-deck: true
 
 @head
 title: Headquarters_Affairs
-view-if: time >= 6
 card-image: img/headquarters.jpeg
 is-deck: true
 
