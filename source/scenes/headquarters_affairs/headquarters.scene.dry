@@ -4,7 +4,7 @@ on-arrival: month_actions += 1
 frequency: 100
 is-card: true
 card-image:
-tags: 
+tags: headquarters_affairs
 
 = Reducing Stigma
 
